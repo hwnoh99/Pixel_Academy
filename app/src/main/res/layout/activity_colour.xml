@@ -19,17 +19,17 @@
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:orientation="horizontal"
-            android:layout_marginTop="60dp">
+            android:layout_marginTop="10dp">
 
             <TextView
-                android:id="@+id/textView1"
+                android:id="@+id/textView_R"
                 android:layout_width="195dp"
                 android:layout_height="wrap_content"
                 android:text="    R:"
                 android:textSize="25dp" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView_G"
                 android:layout_width="195dp"
                 android:layout_height="wrap_content"
                 android:text=" G:"
@@ -41,10 +41,10 @@
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:orientation="horizontal"
-            android:layout_marginTop="60dp">
+            android:layout_marginTop="30dp">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/textView_B"
                 android:layout_width="195dp"
                 android:layout_height="wrap_content"
                 android:text="    B:"
@@ -59,22 +59,59 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/textView_X"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:text="    X:"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView_Y"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:text=" Y:"
+                android:textSize="25dp" />
+
+        </LinearLayout>
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="300dp"
             android:layout_height="300dp"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="60dp"
             android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="  File Name "
+            android:textSize="25dp" />
 
         <Button
             android:id="@+id/button1"
-            android:layout_width="250dp"
+            android:layout_width="249dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
-            android:background="@color/blue"
-            android:textColor="	#F5F5F5"
-            android:text="Google Album" />
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_blue"
+            android:text="Google Album"
+            android:textColor="	#F5F5F5" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/btn_green"
+            android:text="Camera"
+            android:textColor="	#F5F5F5" />
 
     </LinearLayout>
 
